@@ -1,0 +1,30 @@
+.header {
+    &__logo {
+        margin-right: 50px;
+    }
+    &__link {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 15px;
+        color: #697CA6;
+    }
+    &__btn {
+        width: 113px;
+        height: 43px;
+        margin-left: 30px;
+        border: none;
+        border-radius: 2px;
+        background-color: #D2E1FF;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16px;
+        color: #3A79FF;
+    }
+
+    .container{
+        max-width: 1440px;
+    }
+
+
+}
+
