@@ -1,0 +1,30 @@
+.hero {
+    margin: 0 auto;
+    &__wrapper {
+        background: url(../../images/hero/bg.svg) no-repeat;
+        height: 582px;
+        max-width: 1440px;
+    }
+    &__subtitle{
+        @include text (10px, 500, 11px, $titleColor);
+    }
+    &__title{
+        @include text (48px, 300, 60px, $titleColor);
+    }
+    &__title-bold{
+        @include text (48px, 500, 60px, $titleColor);
+    }
+    &__text{
+        @include text (17px, 300, 28px, $textColor);
+    }
+    &__btn {
+        width: 52px;
+        height: 52px;
+        background-color: $primaryColor;
+        border-radius: 50% !important;
+        -webkit-border-radius: 50% !important;
+        -moz-border-radius: 50% !important;
+        -ms-border-radius: 50% !important;
+        -o-border-radius: 50% !important;
+}
+}

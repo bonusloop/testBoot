@@ -17,6 +17,16 @@
     src: url("./../assets/fonts/Quicksand-Bold.ttf") format("truetype");
 }
 
+@import "./abstracts/vars";
+
+@import "./abstracts/mixins";
+
+/* layout */
+
 @import "./layout/header";
+
+@import "./layout/hero";
+
+@import "./layout/features";
 
 @import "./layout/faq";

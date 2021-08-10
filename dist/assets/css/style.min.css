@@ -319,6 +319,9 @@ template {
   font-family: "QuicksandBold";
   src: url("./../assets/fonts/Quicksand-Bold.ttf") format("truetype"); }
 
+/* media */
+/* color */
+/* layout */
 .header__logo {
   margin-right: 50px; }
 
@@ -341,7 +344,63 @@ template {
   color: #3A79FF; }
 
 .header .container {
-  max-width: 1440px; }
+  max-width: 1200px; }
+
+.hero {
+  margin: 0 auto; }
+  .hero__wrapper {
+    background: url(../../images/hero/bg.svg) no-repeat;
+    height: 582px;
+    max-width: 1440px; }
+  .hero__subtitle {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #3D4F9F; }
+  .hero__title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #3D4F9F; }
+  .hero__title-bold {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #3D4F9F; }
+  .hero__text {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #8D96BD; }
+  .hero__btn {
+    width: 52px;
+    height: 52px;
+    background-color: #fff;
+    border-radius: 50% !important;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    -ms-border-radius: 50% !important;
+    -o-border-radius: 50% !important; }
+
+.features__title {
+  margin-bottom: 92px; }
+
+.features__title-h {
+  font-family: RobotoMedium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #3D4F9F;
+  margin-bottom: 20px; }
+
+.features__span {
+  font-family: QuicksandMedium, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3D4F9F; }
 
 .help {
   padding: 175px 0; }
