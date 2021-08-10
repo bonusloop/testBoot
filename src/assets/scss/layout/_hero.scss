@@ -1,7 +1,7 @@
 .hero {
     margin: 0 auto;
     &__wrapper {
-        background: url(../../images/hero/bg.svg) no-repeat;
+        background: url(../images/hero/bg.svg) no-repeat;
         height: 582px;
         max-width: 1440px;
     }
@@ -26,5 +26,5 @@
         -moz-border-radius: 50% !important;
         -ms-border-radius: 50% !important;
         -o-border-radius: 50% !important;
-}
+    }
 }

@@ -10,7 +10,6 @@
         line-height: 12px;
         color: #3D4F9F;
         margin-bottom: 20px;
-;
     }
     &__span {
         font-family: QuicksandMedium, sans-serif;
@@ -20,4 +19,46 @@
         line-height: 30px;
         color: #3D4F9F;
     }
+    &__wrap {
+        margin-bottom: 92px;
+    }
+    &__wrap-files {
+        display: flex;
+        flex-direction: column;
+        max-width: 253px;
+    }
+    &__wrap-img {
+        margin-bottom: 33px;
+    }
+    &__wrap-title {
+        margin-bottom: 25px;
+        @include text (14px, 700, 25px, $assetsColor);
+        font-family: "QuicksandBold";
+    }
+    &__wrap-text {
+        @include text (11px, 600, 19px, $textColorLight);
+        font-family: "QuicksandBold";
+        max-width: 140px;
+    }
+        &__btn-l {
+        width: 113px;
+        height: 43px;
+        border: none;
+        background-color: $btnColorRed;
+        @include text (13px, 700, 16px, $btnColorRedText);
+        border-radius: 2px;
+    }
+    &__btn-r {
+        width: 113px;
+        height: 43px;
+        border: none;
+        background-color: $secondaryColor;
+        @include text (13px, 700, 16px, $btnColorRedText);
+        border-radius: 2px;
+    }   
+    &__btn-span {
+        @include text (11px, 600, 19px, $textColorLight)
+    }     
+
+
 }
